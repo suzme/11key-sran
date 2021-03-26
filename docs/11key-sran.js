@@ -216,7 +216,7 @@ const charts = [
     "url": "https://mfv2.sakura.ne.jp/do/main/?id=Lambda&key=11"
   },
   {
-    "level": "5",
+    "level": "6",
     "title": "茶屋にて",
     "difName": "Ahah↑",
     "artist": "MATSU",
