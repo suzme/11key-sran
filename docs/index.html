@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>11key S-Random難易度表</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>11key S-Random難易度表</h1>
+    <p>
+      <input type="button" id="share" value="Share">
+      <input type="button" id="export" value="Export">
+      <input type="button" id="import" value="Import">
+      <input type="button" id="reset" value="Reset">
+    </p>
+    <div id="app" v-cloak>
+      <table>
+        <tr><th>💪</th><th> </th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th></tr>
+        <tr v-for="chart of charts"
+          v-bind:style="{ 'background-color': chart.lampColor }"
+          v-bind:class="{ 'levelBorder': chart.levelBorder }">
+          <td>💪{{ chart.level }}</td>
+          <td><input type="button" value=" " @click="changeLamp(chart.id)"></td>
+          <td><a v-bind:href="chart.url">{{ chart.title }} [{{ chart.difName }}]</a></td>
+          <td>{{ chart.maker }}</td>
+          <td>{{ chart.artist }}</td>
+        </tr>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="./compress.js"></script>
+    <script src="./11key-sran.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

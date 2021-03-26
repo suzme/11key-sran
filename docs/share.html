@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>11key S-Random難易度表</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>11key S-Random難易度表</h1>
+    <p id="message">
+      このページのURLを共有すると現在のクリア状況を公開できます。
+    </p>
+    <div id="app" v-cloak>
+      <table>
+        <tr><th>💪</th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th></tr>
+        <tr v-for="chart of charts"
+          v-bind:style="{ 'background-color': chart.lampColor }"
+          v-bind:class="{ 'levelBorder': chart.levelBorder }">
+          <td>💪{{ chart.level }}</td>
+          <td><a v-bind:href="chart.url">{{ chart.title }} [{{ chart.difName }}]</a></td>
+          <td>{{ chart.maker }}</td>
+          <td>{{ chart.artist }}</td>
+        </tr>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="./compress.js"></script>
+    <script src="./11key-sran.js"></script>
+    <script src="./share.js"></script>
+  </body>
+</html>
