@@ -502,5 +502,14 @@ const charts = [
     "maker": "Bards a feather",
     "scoreId": "0",
     "url": "https://mfv2.sakura.ne.jp/do/_bards_imodurushiki/?id=M63047A037&key=11"
+  },
+  {
+    "level": "10",
+    "title": "魔法使いの女の子",
+    "difName": "Magic",
+    "artist": "あき",
+    "maker": "izkdic",
+    "scoreId": "0",
+    "url": "https://vorhandensein.sakura.ne.jp/danoni/286_magic/11mode.html"
   }
 ]
