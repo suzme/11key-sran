@@ -529,5 +529,14 @@ const charts = [
     "maker": "grimoldy",
     "scoreId": "1",
     "url": "https://mfv2.sakura.ne.jp/do/_grimoldy/?id=lamion"
+  },
+  {
+    "level": "6",
+    "title": "ウタカタ",
+    "difName": "Hard",
+    "artist": "RedMuffleR",
+    "maker": "猫かぶり",
+    "scoreId": "0",
+    "url": "https://mfv2.sakura.ne.jp/do/main/?id=utakata"
   }
 ]
