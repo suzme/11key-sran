@@ -520,5 +520,14 @@ const charts = [
     "maker": "izkdic",
     "scoreId": "0",
     "url": "https://vorhandensein.sakura.ne.jp/danoni/080_pinkspider/11mode.html"
+  },
+  {
+    "level": "5",
+    "title": "LAMION",
+    "difName": "Hard",
+    "artist": "島白",
+    "maker": "grimoldy",
+    "scoreId": "1",
+    "url": "https://mfv2.sakura.ne.jp/do/_grimoldy/?id=lamion"
   }
 ]
