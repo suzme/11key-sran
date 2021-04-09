@@ -556,5 +556,14 @@ const charts = [
     "maker": "MFV2",
     "scoreId": "0",
     "url": "https://mfv2.sakura.ne.jp/do/main/?id=kappa"
+  },
+  {
+    "level": "9",
+    "title": "Berry Berry Strawberry",
+    "difName": "Sweet",
+    "artist": "P*Light",
+    "maker": "mmj",
+    "scoreId": "0",
+    "url": "http://apoi108.sakura.ne.jp/danoni/mmj/berry.html"
   }
 ]
