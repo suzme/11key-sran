@@ -538,5 +538,14 @@ const charts = [
     "maker": "猫かぶり",
     "scoreId": "0",
     "url": "https://mfv2.sakura.ne.jp/do/main/?id=utakata"
+  },
+  {
+    "level": "5",
+    "title": "Pulse of Reunion",
+    "difName": "Hard",
+    "artist": "celas",
+    "maker": "ティア",
+    "scoreId": "0",
+    "url": "https://mfv2.sakura.ne.jp/do/_tia/?id=pulseof&key=11"
   }
 ]
