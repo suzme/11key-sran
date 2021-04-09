@@ -547,5 +547,14 @@ const charts = [
     "maker": "ティア",
     "scoreId": "0",
     "url": "https://mfv2.sakura.ne.jp/do/_tia/?id=pulseof&key=11"
+  },
+  {
+    "level": "6",
+    "title": "平成河童大系",
+    "difName": "Super Hard",
+    "artist": "SOUND HOLIC",
+    "maker": "MFV2",
+    "scoreId": "0",
+    "url": "https://mfv2.sakura.ne.jp/do/main/?id=kappa"
   }
 ]
