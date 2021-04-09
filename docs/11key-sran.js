@@ -511,5 +511,14 @@ const charts = [
     "maker": "izkdic",
     "scoreId": "0",
     "url": "https://vorhandensein.sakura.ne.jp/danoni/286_magic/11mode.html"
+  },
+  {
+    "level": "3",
+    "title": "ピンクスパイダー",
+    "difName": "Normal",
+    "artist": "トラボルタ",
+    "maker": "izkdic",
+    "scoreId": "0",
+    "url": "https://vorhandensein.sakura.ne.jp/danoni/080_pinkspider/11mode.html"
   }
 ]
