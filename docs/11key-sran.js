@@ -564,6 +564,6 @@ const charts = [
     "artist": "P*Light",
     "maker": "mmj",
     "scoreId": "0",
-    "url": "http://apoi108.sakura.ne.jp/danoni/mmj/berry.html"
+    "url": "https://mfv2.sakura.ne.jp/do/_mmj/?id=berry"
   }
 ]
